@@ -11,8 +11,8 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: josagonzalez
-description: Flowing creativity &#x2192; Cascading bliss
+title: josa gonzalez
+description: #Flowing creativity &#x2192; Cascading bliss
 owner:
   name: Josafat Gonzalez # or company name
   email: josafatrgonzalez@gmail.com
@@ -25,7 +25,7 @@ url: "http://josagonzalez.github.io" # the base hostname & protocol for your sit
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!  
-  text: I hope you enjoy my collection
+  text: I hope you enjoy my site
 # - title for your blog's featured posts
 features-title: Featured topics
 # - displayed at the bottom
@@ -34,13 +34,13 @@ closing-para: Feel free to get in touch. Cheers!
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/josa_gonza
   github: https://github.com/josagonzalez
   linkedin-square: https://linkedin.com/in/josafat-gonzalez-60795075
   facebook-official: https://facebook.com/josafat.gonzalez.169
-  #google-plus-square: https://plus.google.com/u/0/+GaryFaircloth
+  #google-plus-square:
   email: /contact/
   flickr: https://www.flickr.com/photos/141306919@N08/
+  twitter: https://twitter.com/josa_gonza
   instagram: https://www.instagram.com/josagonzalez/
   #youtube-square:
   #spotify:

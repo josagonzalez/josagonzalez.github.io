@@ -33,18 +33,19 @@ This script helps you create a post. It adds it to the _drafts folder.
 (Hit Ctrl-C at any time to cancel. Default values are shown in brackets;
 to accept the default you can just hit return.)
 
-This site has two types of posts:
-- Topics: blog posts
+This site has three types of posts:
+- Blog: topic blog posts
 - Works: portfolio entries
+- Travel: travel posts
 
 eoh
-print "Is this a (t)opic or (w)ork? [t]: "
+print "Is this a (b)log, (w)ork, or (t)ravel? [b]: "
 type = ''
 while true
   type = gets
   type.strip!
-  unless (type == '' or /^[tw]$/.match(type)) then redo end
-  if type=='' then type = 't' end
+  unless (type == '' or /^[btw]$/.match(type)) then redo end
+  if type=='' then type = 'b' end
   break
 end
 
@@ -66,7 +67,7 @@ want it to have a priority under 0.5. What priority should it have?
     if priority == '' then priority = '0.7' end
     break
   end
-else
+elsif type=='b'
   categories << 'topics'
   puts <<-eoh
 
@@ -82,6 +83,23 @@ priority in the site map. Is this a featured post?
     if (featured=='' or featured=='n') then featured = nil end
     break
   end
+else
+  categories << 'travels'
+  puts <<-eoh
+
+The first 10 featured posts are listed on the front page and get a higher priority in the site map. Is this a featured post?
+
+  eoh
+  featured = ''
+  while true
+    print "(y or [n]): "
+	featured = gets
+	featured.strip!
+	unless (featured == '' or /^[yn]$/.match(featured)) then redo end
+	if (featured == '' or featured=='n') then featured = nil end
+	break
+  end
+
   puts <<-eoh
 
 If this is a part of a series of posts that you want to be displayed with
@@ -140,7 +158,7 @@ print "\nPost excerpt: "
 excerpt = gets
 excerpt.strip!
 
-if type == 't'
+if /^[bt]$/.match(type)
   print "\nPost author [" + author + "]: "
   theauth = gets
   theauth.strip!

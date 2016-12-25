@@ -1,0 +1,33 @@
+---
+key: 3
+id: 3
+title: Travels
+permalink: /travels/
+excerpt: The places I've visited
+image: korcula.jpg
+background-image: korcula-1.jpg
+---
+{%
+if site.categories.travels %}
+<div class="table-wrapper">
+  <table>
+    <tbody>{%
+      include fn_groupsort_reverse.html unsorted=site.categories.travels groupby='priority' sortby='date'
+%}{%  for travel in sorted_list %}
+      <tr>
+        <td><b><a href="{{ travel.url | prepend: site.baseurl }}">{{ travel.title }}</a></b></td>
+        <td>{{ travel.date | date: "%b %Y" }}</td>
+        <td>{{ travel.excerpt | strip_html | truncatewords: 12 }}</td>
+        <td>
+          {% include techlist.html %}
+        </td>
+      </tr>{%
+      endfor %}
+    </tbody>
+  </table>
+</div>{%
+  if site.works_in_progress %}
+  <div class="works_inprogress">In-progress, more to come.</div>{%
+  endif %}{%
+endif
+%}

@@ -1,4 +1,4 @@
-## arkadianriver.com
+## josagonzalez.github.io
 
 ```sh
 ✔ pushd new-site
@@ -29,7 +29,7 @@ the `--future` option is used.
 
 You can run `ruby compose.rb` to create new draft posts.
 
-If you're building your site on Windows (like me) and you use WinSCP to sync with your
+If you're building your site on Windows and you use WinSCP to sync with your
 remote site, you can use the `site.bat` file. Set up a `_site.env` file
 as described in the comments of `site.bat` and change the excludes list for your site.
 

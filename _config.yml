@@ -17,7 +17,7 @@ owner:
   name: Josafat Gonzalez # or company name
   email: josafatrgonzalez@gmail.com
   url: http://josagonzalez.github.io
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2017 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://josagonzalez.github.io" # the base hostname & protocol for your site
 

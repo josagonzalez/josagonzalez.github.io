@@ -16,7 +16,7 @@ I've been wanting to take a stab at blogging for some time now, but I could neve
 - Topics - Any random posts that can deal with hobbies, thoughts, or reviews
 - Travels - Well...travels
 
-I'll give this strucutre a try and see how it works out. Bear with me as I learn this whole blogging thing. If you have any suggestions or tips, feel free to reach out!
+I'll give this structure a try and see how it works out. Bear with me as I learn this whole blogging thing. If you have any suggestions or tips, feel free to reach out!
 
 Adios,  
 Josafat

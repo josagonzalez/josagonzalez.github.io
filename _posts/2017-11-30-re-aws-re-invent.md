@@ -19,7 +19,7 @@ At the top of my list is [GuardDuty](https://aws.amazon.com/guardduty/), a new m
 
 Next up is [Macie](https://aws.amazon.com/macie/), another machine learning service that discovers, classifies, and protects sensitive data in S3. I learned about Macie a couple months ago when it was first released, but I didn't think it really fit our needs at VividCortex. After talking to some Macie engineers, I realized it can definitely fit our architecture and it will be very valuable in one of my upcoming projects. I'm super stoked to give it a try!
 
-A couple other tools that I want to make use of is [Config](https://aws.amazon.com/config/) and [Inspector](https://aws.amazon.com/inspector/). Config will allow us to assess, audit, and evaluate configurations in AWS and Inspector will help with running security assessments.
+A couple other tools that I want to use are [Config](https://aws.amazon.com/config/) and [Inspector](https://aws.amazon.com/inspector/). Config will allow us to assess, audit, and evaluate configurations in AWS and Inspector will help with running security assessments.
 
 First thing I need to do when I get back (and maybe on the flight home), will be read the AWS Security whitepaper. Don't ask why I haven't read it yet! GuardDuty and Macie should fit seamlessly into our current architecture, and I can use the suggestions from the whitepaper to move toward an environment where we can leverage Config and Inspector.
 

@@ -1,5 +1,5 @@
 ---
-title: Re AWS ReInvent
+title: "Re: AWS Re:Invent"
 excerpt: Outcome of a weeklong AWS conference
 author: josagonzalez
 tags: featured

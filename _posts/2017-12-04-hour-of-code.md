@@ -34,9 +34,9 @@ This week is [Hour of Code](https://code.org) week at Heritage Elementary School
   My job can be hard at times, but it's also very rewarding. I like a good challenge and I enjoy seeing the positive results.
 - How does coding help with cyber security?  
   Coding can help with cyber security if you, as a coder, emphasize security. Make sure to always consider security when writing code.
-- Are there women who do your job?
-  There are many fantastic women who do my job! Some of the best coders I've worked with are women!
+- Are there women who do your job?  
+  There are many fantastic women who do my job! Some of the best coders I've worked with are women!  
 - What did you learn about coding in high school and college?  
-  I learned that coding is like solving a puzzle. There is always a solution to the puzzle, you just have to make sure that you can come to that solution as quickly and efficiently as possible.
+  I learned that coding is like solving a puzzle. There is always a solution to the puzzle, you just have to make sure that you can come to that solution as quickly and efficiently as possible.  
 - What high school did you go to?  
   I went to the academy of Science, Engineering, and Technology at Bartlett High School.
